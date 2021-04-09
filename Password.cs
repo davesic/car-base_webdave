@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading;
 
 namespace car
 {
     public partial class Password : Form
     {
+        Thread th;
         public Password()
         {
             InitializeComponent();
@@ -36,8 +38,16 @@ namespace car
         {
             if (textBox1.Text == "password1")
             {
-                label2.Text = "Success";
+                this.Close();
+                Application.Exit();
+                th = new Thread(admin);
+                th.SetApartmentState(ApartmentState.STA);
+                th.Start();
             } else label2.Text = "Error. Incorrect password";
+        }
+        private void admin()
+        {
+            Application.Run(new Admin());
         }
     }
 }

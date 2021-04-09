@@ -70,6 +70,7 @@ namespace car
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.Color.Red;
             this.label2.Location = new System.Drawing.Point(93, 167);
             this.label2.MinimumSize = new System.Drawing.Size(164, 20);
             this.label2.Name = "label2";

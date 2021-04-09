@@ -19,3 +19,4 @@ C:\Users\webda\source\repos\car\car\obj\Debug\net5.0-windows\car.pdb
 C:\Users\webda\source\repos\car\car\obj\Debug\net5.0-windows\car.genruntimeconfig.cache
 C:\Users\webda\source\repos\car\car\obj\Debug\net5.0-windows\car.user.resources
 C:\Users\webda\source\repos\car\car\obj\Debug\net5.0-windows\car.Admin.resources
+C:\Users\webda\source\repos\car\car\obj\Debug\net5.0-windows\car.Password.resources

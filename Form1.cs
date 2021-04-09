@@ -33,12 +33,12 @@ namespace car
         }
         private void admin()
         {
-            Application.Run(new Admin());
+            Application.Run(new Password());
         }
 
         private void admin_img_MouseClick(object sender, MouseEventArgs e)
         {
-            this.Close();
+            
             th = new Thread(admin);
             th.SetApartmentState(ApartmentState.STA);
             th.Start();

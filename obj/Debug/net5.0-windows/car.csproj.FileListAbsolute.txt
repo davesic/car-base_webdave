@@ -20,3 +20,4 @@ C:\Users\webda\source\repos\car\car\obj\Debug\net5.0-windows\car.genruntimeconfi
 C:\Users\webda\source\repos\car\car\obj\Debug\net5.0-windows\car.user.resources
 C:\Users\webda\source\repos\car\car\obj\Debug\net5.0-windows\car.Admin.resources
 C:\Users\webda\source\repos\car\car\obj\Debug\net5.0-windows\car.Password.resources
+C:\Users\webda\source\repos\car\car\obj\Debug\net5.0-windows\car.Add.resources

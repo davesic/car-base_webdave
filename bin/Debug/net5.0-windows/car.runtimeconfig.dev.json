@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\webda\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\webda\\.nuget\\packages"
+    ]
+  }
+}
